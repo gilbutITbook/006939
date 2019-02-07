@@ -1,0 +1,13 @@
+{
+    "name": "Jane",
+    "age": 10,
+    "point": [ 100, 200 ],
+    "scores": [ 80, 90, 50 ],
+    "data": {
+        "type_id": "opencv-matrix",
+        "rows": 2,
+        "cols": 2,
+        "dt": "f",
+        "data": [ 1.0, 1.50000000e+00, 2.0, 3.20000005e+00 ]
+    }
+}
