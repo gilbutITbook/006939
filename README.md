@@ -1,7 +1,9 @@
 <h1>OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝(길벗, 2019)
 
 ## 예제 파일에 대하여 
-- Visual Studio를 사용합니다.
+- OpenCV 4.0.0, TensorFlow 1.12를 기준으로 합니다.
+
+- Visual Studio 2017을 사용합니다.
 
 - 장별로 예제 파일을 제공합니다.
 

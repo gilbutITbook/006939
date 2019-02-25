@@ -15,13 +15,19 @@ int main()
 
 void template_matching()
 {
-	Mat img = imread("gameplay.png", IMREAD_COLOR);
-	Mat templ = imread("mario.png", IMREAD_COLOR);
+	Mat img = imread("circuit.bmp", IMREAD_COLOR);
+	Mat templ = imread("crystal.bmp", IMREAD_COLOR);
 
 	if (img.empty() || templ.empty()) {
 		cerr << "Image load failed!" << endl;
 		return;
 	}
+
+	img = img + Scalar(50, 50, 50);
+
+	Mat noise(img.size(), CV_32SC3);
+	randn(noise, 0, 10);
+	add(img, noise, img, Mat(), CV_8UC3);
 
 	Mat res, res_norm;
 	matchTemplate(img, templ, res, TM_CCOEFF_NORMED);
