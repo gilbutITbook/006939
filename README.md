@@ -2,11 +2,11 @@
 
 ## 예제 파일에 대하여 
 
-• Microsoft Windows 10(64비트)을 기준으로 합니다.
-• Visual Studio Community 2017과 OpenCV 4.0.0을 기준으로 합니다.
-• Python 3.7.2와 TensorFlow 1.13.1을 기준으로 합니다.
-• CMake 3.14.0을 기준으로 합니다.
-• Ubuntu 18.04.2를 기준으로 합니다.
+• Microsoft Windows 10(64비트)을 기준으로 합니다.<br/>
+• Visual Studio Community 2017과 OpenCV 4.0.0을 기준으로 합니다.<br/>
+• Python 3.7.2와 TensorFlow 1.13.1을 기준으로 합니다.<br/>
+• CMake 3.14.0을 기준으로 합니다.<br/>
+• Ubuntu 18.04.2를 기준으로 합니다.<br/>
 
 ## 소스 코드 빌드 및 실행 방법
 
