@@ -55,8 +55,6 @@ void filter_bilateral()
 
 	Mat noise(src.size(), CV_32SC1);
 	randn(noise, 0, 5);
-
-	Mat dst;
 	add(src, noise, src, Mat(), CV_8U);
 
 	Mat dst1;

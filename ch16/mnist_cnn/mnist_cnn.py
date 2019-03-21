@@ -1,10 +1,3 @@
-#
-# Author: Sunkyoo Hwang / sunkyoo.hwang at gmail.com
-#
-# Train MNIST using a simple CNN structure and export a *.pb file.
-# The pb file will be used in an OpenCV application.
-#
-
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 from tensorflow.python.framework import graph_util

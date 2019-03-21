@@ -46,7 +46,7 @@ void MatOp1()
 	Mat mat5 = (Mat_<float>(2, 3) << 1, 2, 3, 4, 5, 6);
 	Mat mat6 = Mat_<uchar>({2, 3}, { 1, 2, 3, 4, 5, 6 });
 
-	mat4.create(256, 256, CV_8UC3);	// uchar, 3-channel
+	mat4.create(256, 256, CV_8UC3);	// uchar, 3-channels
 	mat5.create(4, 4, CV_32FC1);	// float, 1-channel
 
 	mat4 = Scalar(255, 0, 0);

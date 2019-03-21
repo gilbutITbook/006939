@@ -32,7 +32,8 @@ void unsharp_mask()
 		Mat dst = (1 + alpha) * src - alpha * blurred;
 
 		String desc = format("sigma: %d", sigma);
-		putText(dst, desc, Point(10, 30), FONT_HERSHEY_SIMPLEX, 1.0, Scalar(255), 1, LINE_AA);
+		putText(dst, desc, Point(10, 30), FONT_HERSHEY_SIMPLEX, 1.0, 
+				Scalar(255), 1, LINE_AA);
 
 		imshow("dst", dst);
 		waitKey();

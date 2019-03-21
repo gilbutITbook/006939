@@ -31,7 +31,8 @@ void blurring_mean()
 		blur(src, dst, Size(ksize, ksize));
 
 		String desc = format("Mean: %dx%d", ksize, ksize);
-		putText(dst, desc, Point(10, 30), FONT_HERSHEY_SIMPLEX, 1.0, Scalar(255), 1, LINE_AA);
+		putText(dst, desc, Point(10, 30), FONT_HERSHEY_SIMPLEX, 1.0, 
+				Scalar(255), 1, LINE_AA);
 
 		imshow("dst", dst);
 		waitKey();
@@ -56,7 +57,8 @@ void blurring_gaussian()
 		GaussianBlur(src, dst, Size(0, 0), (double)sigma);
 
 		String desc = format("Gaussian: sigma = %d", sigma);
-		putText(dst, desc, Point(10, 30), FONT_HERSHEY_SIMPLEX, 1.0, Scalar(255), 1, LINE_AA);
+		putText(dst, desc, Point(10, 30), FONT_HERSHEY_SIMPLEX, 1.0, 
+				Scalar(255), 1, LINE_AA);
 
 		imshow("dst", dst);
 		waitKey();
