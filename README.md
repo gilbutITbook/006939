@@ -24,6 +24,9 @@ $ make
 $ ./<span class="pl-k">&lt;</span>project<span class="pl-k">&gt;</span></pre></div>
 </li>
 
+## <a href="https://github.com/sunkyoo/opencv4cvml/tree/master/python" target="_blank">[저자 깃허브]</a>에서 책의 예제를 파이썬 언어로 구현한 소스 코드를 공개합니다.
+다만 책 본문에서 설명하는 Mat 클래스, Scalar 클래스 사용법 등 C/C++ 언어에 특화된 내용은 Python 예제로 제공하지 않습니다.
+
 ## 관련 동영상
 저자 깃허브<a href="https://sunkyoo.github.io/opencv4cvml/" rel="nofollow"><strong>[링크]</strong></a>에서 Visual Studio 2017과 OpenCV 설치 방법, 일부 책 내용에 대한 동영상 강의를 제공합니다. 
 
