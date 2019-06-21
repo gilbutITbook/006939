@@ -24,7 +24,8 @@ $ make
 $ ./<span class="pl-k">&lt;</span>project<span class="pl-k">&gt;</span></pre></div>
 </li>
 
-## <a href="https://github.com/sunkyoo/opencv4cvml/tree/master/python" target="_blank">[저자 깃허브]</a>에서 책의 예제를 파이썬 언어로 구현한 소스 코드를 공개합니다.
+## 파이썬으로 구현한 소스 코드
+<a href="https://github.com/sunkyoo/opencv4cvml/tree/master/python" target="_blank">[저자 깃허브]</a>에서 책의 예제를 파이썬 언어로 구현한 소스 코드를 공개합니다.
 다만 책 본문에서 설명하는 Mat 클래스, Scalar 클래스 사용법 등 C/C++ 언어에 특화된 내용은 Python 예제로 제공하지 않습니다.
 
 ## 관련 동영상
