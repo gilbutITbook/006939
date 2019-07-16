@@ -28,28 +28,9 @@ $ ./<span class="pl-k">&lt;</span>project<span class="pl-k">&gt;</span></pre></d
 <a href="https://github.com/sunkyoo/opencv4cvml/tree/master/python" target="_blank">[저자 깃허브]</a>에서 책의 예제를 파이썬 언어로 구현한 소스 코드를 공개합니다.
 다만 책 본문에서 설명하는 Mat 클래스, Scalar 클래스 사용법 등 C/C++ 언어에 특화된 내용은 Python 예제로 제공하지 않습니다.
 
-<<<<<<< HEAD
-<ol>
-<ul>
-  <li>Visual Studio 2017 설치하기 <a href="https://youtu.be/jzVNiMeVcvs"><img src="/opencv4cvml/youtube_icon.png" alt="Youtube" /></a> <a href="https://youtu.be/jzVNiMeVcvs" target="_blank">[동영상]</a></li>
-  <li>OpenCV 설치 실행 파일로 설치하기 <a href="https://youtu.be/HxDfGHwDSmc"><img src="/opencv4cvml/youtube_icon.png" alt="Youtube" /></a> <a href="https://youtu.be/HxDfGHwDSmc" target="_blank">[동영상]</a></li>
-  <li>OpenCV 프로젝트 만들기: HelloCV <a href="https://youtu.be/fKWQIPwNsc8"><img src="/opencv4cvml/youtube_icon.png" alt="Youtube" /></a> <a href="https://youtu.be/fKWQIPwNsc8" target="_blank">[동영상]</a></li>
-  <li>영상을 화면에 출력하기 <a href="https://youtu.be/gcgScMU0XWE"><img src="/opencv4cvml/youtube_icon.png" alt="Youtube" /></a> <a href="https://youtu.be/gcgScMU0XWE" target="_blank">[동영상]</a></li>
-  <li>OpenCV 소스 코드 빌드하여 설치하기 <a href="https://youtu.be/ac75cFPYlOQ"><img src="/opencv4cvml/youtube_icon.png" alt="Youtube" /></a> <a href="https://youtu.be/ac75cFPYlOQ" target="_blank">[동영상]</a></li>
-  <li>텐서플로로 필기체 인식 학습하고 OpenCV에서 사용하기 <a href="https://youtu.be/4FLAp9nXlyo"><img src="/opencv4cvml/youtube_icon.png" alt="Youtube" /></a> <a href="https://youtu.be/4FLAp9nXlyo" target="_blank">[동영상]</a></li>
-  <li>딥러닝 학습 모델을 가져와서 OpenCV에서 실행하기 <a href="https://youtu.be/DteTXf4_pcA"><img src="/opencv4cvml/youtube_icon.png" alt="Youtube" /></a> <a href="https://youtu.be/DteTXf4_pcA" target="_blank">[동영상]</a></li>
-  <li>리눅스에서 OpenCV 설치하기 <a href="https://youtu.be/3RcQf0hJdFM"><img src="/opencv4cvml/youtube_icon.png" alt="Youtube" /></a> <a href="https://youtu.be/3RcQf0hJdFM" target="_blank">[동영상]</a> / <a href="/opencv4cvml/OpenCV4Linux.html" target="_blank">[문서]</a></li>
-  <li>Visual Studio 2017 다운로드 방법 (2019년 6월 기준) <a href="https://youtu.be/SRzKtZBMIIY"><img src="/opencv4cvml/youtube_icon.png" alt="Youtube" /></a> <a href="https://youtu.be/SRzKtZBMIIY" target="_blank">[동영상]</a></li>
-</ul>
-</ol>
-=======
 ## 관련 동영상
 저자 깃허브<a href="https://sunkyoo.github.io/opencv4cvml/" rel="nofollow"><strong>[링크]</strong></a>에서 Visual Studio 2017과 OpenCV 설치 방법, 일부 책 내용에 대한 동영상 강의를 제공합니다. 
 >>>>>>> 86fb2605dfd757803d0af37ef148081883cc30c8
-
-# <a href="https://github.com/sunkyoo/opencv4cvml/tree/master/python" target="_blank">[저자 깃허브]</a>에서 책의 예제를 파이썬 언어로 구현한 소스 코드를 공개합니다.
-다만 책 본문에서 설명하는 Mat 클래스, Scalar 클래스 사용법 등 C/C++ 언어에 특화된 내용은 Python 예제로 제공하지 않습니다.
-
 
 ## 오프라인 강의
 <p>“OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝” 책은 [패스트캠퍼스]에서 진행 중인 <a href="https://www.fastcampus.co.kr/dev_camp_cvocv/" target="_blank">[OpenCV로 배우는 컴퓨터 비전 프로그래밍]</a> 강의 내용을 기반으로 출간되었습니다. 패스트캠퍼스 강의는 <a href="https://www.fastcampus.co.kr/dev_camp_cvocv/" target="_blank">[링크]</a>를 참고하기 바랍니다.</p>
