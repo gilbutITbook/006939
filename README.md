@@ -30,7 +30,6 @@ $ ./<span class="pl-k">&lt;</span>project<span class="pl-k">&gt;</span></pre></d
 
 ## 관련 동영상
 저자 깃허브<a href="https://sunkyoo.github.io/opencv4cvml/" rel="nofollow"><strong>[링크]</strong></a>에서 Visual Studio 2017과 OpenCV 설치 방법, 일부 책 내용에 대한 동영상 강의를 제공합니다. 
->>>>>>> 86fb2605dfd757803d0af37ef148081883cc30c8
 
 ## 오프라인 강의
 <p>“OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝” 책은 [패스트캠퍼스]에서 진행 중인 <a href="https://www.fastcampus.co.kr/dev_camp_cvocv/" target="_blank">[OpenCV로 배우는 컴퓨터 비전 프로그래밍]</a> 강의 내용을 기반으로 출간되었습니다. 패스트캠퍼스 강의는 <a href="https://www.fastcampus.co.kr/dev_camp_cvocv/" target="_blank">[링크]</a>를 참고하기 바랍니다.</p>
