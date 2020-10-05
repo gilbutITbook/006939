@@ -3,10 +3,12 @@
 
 using namespace cv;
 using namespace std;
- 
+
+// 함수를 사용하기 위해 선언 
 void VecOp();
 void ScalarOp();
 
+// 주석을 이용하여 원하는 부분만 출력
 int main(void)
 {
 	VecOp();
