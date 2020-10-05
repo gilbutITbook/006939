@@ -13,6 +13,7 @@ void MatOp5();
 void MatOp6();
 void MatOp7();
 
+// 주석을 이용하여 원하는 부분만 출력
 int main()
 {
 	MatOp1();
