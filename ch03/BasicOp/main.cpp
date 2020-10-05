@@ -4,7 +4,7 @@
 using namespace cv;
 using namespace std;
 
-// 함수를 사용하기 위해 선언합니다.
+// 함수를 사용하기 위해 선언
 void PointOp();
 void SizeOp();
 void RectOp();
@@ -12,7 +12,7 @@ void RotatedRectOp();
 void RangeOp();
 void StringOp();
 
-// 주석을 이용하여 원하는 부분만 출력할 수 있습니다.
+// 주석을 이용하여 원하는 부분만 출력
 int main()
 {
 	PointOp();
@@ -30,7 +30,7 @@ void PointOp()
 {
 	Point pt1;				// pt1 = (0, 0)
 	pt1.x = 5; pt1.y = 10;	// pt1 = (5, 10)
-    // Point Class 선언을 한 다음 따로 좌표에 대해 선언해준다.
+    // Point Class 선언을 한 다음 따로 좌표에 대해 선언
 
 	Point pt2(10, 30);		// pt2 = (10, 30)
     // Point Class 선언과 동시에 좌표를 선언
@@ -53,8 +53,8 @@ void SizeOp()
 {
 	Size sz1, sz2(10, 20);			// sz1 = [0 x 0], sz2 = [10 x 20]
 	sz1.width = 5; sz1.height = 10;	// sz1 = [5 x 10]
-    // sz1 - Size Class 선언과 가로 세로 선언을 따로 해준다.
-    // sz2 - Size Class 선언과 동시에 가로 세로를 선언해준다.
+    // sz1 - Size Class 선언과 가로 세로 선언
+    // sz2 - Size Class 선언과 동시에 가로 세로를 선언
 
 	Size sz3 = sz1 + sz2;	// sz3 = [15 x 30]
 	Size sz4 = sz1 * 2;		// sz4 = [10 x 20]
