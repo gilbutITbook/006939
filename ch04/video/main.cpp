@@ -12,9 +12,9 @@ void camera_in_video_out();
 // 주석을 이용하여 원하는 부분만 출력
 int main(void)
 {
-	//camera_in();
+	camera_in();
 	video_in();
-	//camera_in_video_out();
+	camera_in_video_out();
 
 	return 0;
 }
