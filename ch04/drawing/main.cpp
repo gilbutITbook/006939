@@ -4,6 +4,7 @@
 using namespace cv;
 using namespace std;
 
+// 함수를 사용하기 위한 선언
 void drawLines();
 void drawPolys();
 void drawText1();
