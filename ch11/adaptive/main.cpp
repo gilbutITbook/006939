@@ -7,6 +7,7 @@ using namespace std;
 // 함수 사용을 위한 선언
 void on_trackbar(int pos, void* userdata);
 
+// 트랙바를 이용한 적응형 이진화 예제
 int main()
 {
 	// sudoku.jpg를 GrayScale 이미지로 Mat 형태로 저장
