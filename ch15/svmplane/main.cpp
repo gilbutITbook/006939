@@ -7,10 +7,10 @@ using namespace std;
 
 int main(void)
 {
-	Mat train = Mat_<float>({ 8, 2 }, {
+	Mat train = (Mat_<float>( 8, 2 ) <<
 		150, 200, 200, 250, 100, 250, 150, 300,
-		350, 100, 400, 200, 400, 300, 350, 400 });
-	Mat label = Mat_<int>({ 8, 1 }, { 0, 0, 0, 0, 1, 1, 1, 1 });
+		350, 100, 400, 200, 400, 300, 350, 400 );
+	Mat label = (Mat_<int>( 8, 1 ) <<  0, 0, 0, 0, 1, 1, 1, 1 );
 
 	Ptr<SVM> svm = SVM::create();
 	svm->setType(SVM::C_SVC);
@@ -21,7 +21,7 @@ int main(void)
 
 	for (int j = 0; j < img.rows; j++) {
 		for (int i = 0; i < img.cols; i++) {
-			Mat test = Mat_<float>({ 1, 2 }, { (float)i, (float)j });
+			Mat test = (Mat_<float>(1, 2) << (float)i, (float)j );
 			int res = cvRound(svm->predict(test));
 
 			if (res == 0)
